@@ -4,10 +4,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.container  {
-  /* margin: 0px 10px; */
-}
-
 .nav-bar {
   font-size: 22px;
   display: flex;
@@ -55,7 +51,6 @@
   font-weight: 600;
 }
 .Project-section {
-  /* font-size: 28px; */
   margin-top: 80px;
   margin-bottom: 30px;
   margin-left:20px;
