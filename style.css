@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container  {
+  margin: 0px 10px;
+}
+
+.nav-bar {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  letter-spacing:4px;
+  box-shadow: 2px 5px 5px #09090936;
+  align-items: center;
+}
+.nav-right {
+  display: flex;
+  column-gap: 30px;
+  
+}
+.nav-right>div,.nav-left {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.nav-right>div:hover,.nav-left:hover {
+  background-color: rgba(105, 105, 105, 0.578);
+}
+.hero {
+  position: relative;
+}
+.hero-img {
+  position: relative;
+}
+.hero-text {
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 6px;
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  top:50%;
+  right: 40%;
+}
+.hero-logo {
+  padding: 5px 10px;
+  background-color: black;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.Project-section {
+  /* font-size: 28px; */
+  margin-top: 80px;
+  margin-bottom: 30pxc;
+}
+.Project-section>p {
+  font-size: 28px;
+  margin: 20px 20px;
+  
+}
+.grid-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.grid-container>div {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+.grid-container>div>img {
+  width: 100%;
+}
+
+.grid-container>div>p {
+  position: absolute;
+  color: #fff;
+  background-color: black;
+  padding: 10px 10px;
+  top: 0px;
+}
