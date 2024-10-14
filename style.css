@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 .container  {
-  margin: 0px 10px;
+  /* margin: 0px 10px; */
 }
 
 .nav-bar {
@@ -14,8 +14,10 @@
   justify-content: space-between;
   padding: 10px 30px;
   letter-spacing:4px;
-  box-shadow: 2px 5px 5px #09090936;
+  box-shadow: 2px 5px 5px #3d393936;
   align-items: center;
+  margin: 2px;
+
 }
 .nav-right {
   display: flex;
@@ -27,10 +29,11 @@
   border-radius: 5px;
 }
 .nav-right>div:hover,.nav-left:hover {
-  background-color: rgba(105, 105, 105, 0.578);
+  background-color: rgba(105, 105, 105, 0.6);
 }
 .hero {
   position: relative;
+  margin: 0px 10px;
 }
 .hero-img {
   position: relative;
@@ -54,11 +57,12 @@
 .Project-section {
   /* font-size: 28px; */
   margin-top: 80px;
-  margin-bottom: 30pxc;
+  margin-bottom: 30px;
+  margin-left:20px;
+  margin-right: 20px;
 }
 .Project-section>p {
   font-size: 28px;
-  margin: 20px 20px;
   
 }
 .grid-container {
