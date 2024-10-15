@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
 }
 .nav-bar {
+  background-color: #fff;
   font-size: 22px;
   display: flex;
   justify-content: space-between;
@@ -12,19 +14,24 @@
   letter-spacing:4px;
   box-shadow: 2px 5px 5px #3d393936;
   align-items: center;
-  margin: 2px;
-
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 .nav-right {
   display: flex;
   column-gap: 30px;
   
 }
-.nav-right>div,.nav-left {
+.nav-left>span {
+  letter-spacing: 9px;
+}
+.nav-right>div,.nav-left,a {
   padding: 5px 10px;
   border-radius: 5px;
+  
 }
-.nav-right>div:hover,.nav-left:hover {
+.nav-right>div:hover,.nav-left:hover,a:hover {
   background-color: rgba(105, 105, 105, 0.6);
 }
 .hero {
@@ -55,6 +62,8 @@
   margin-bottom: 30px;
   margin-left:20px;
   margin-right: 20px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 .Project-section>p {
   font-size: 28px;
@@ -84,4 +93,10 @@
   background-color: black;
   padding: 10px 10px;
   top: 0px;
+}
+a {
+  text-decoration: none;
+  align-self: center;
+  color: inherit;
+  
 }
